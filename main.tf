@@ -9,3 +9,7 @@ output "project_name" {
 output "environment" {
   value = "Development"
 }
+
+output "deployment_method" {
+  value = "GitOps through GitHub Actions"
+}
